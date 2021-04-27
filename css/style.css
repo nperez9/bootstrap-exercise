@@ -15,11 +15,15 @@ html, body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
-  background-color: grey;
+  background-color: #e2e2e2;;
 }
 
 .checkbox-container {
   margin: 15px 0;
+}
+
+.sing-up {
+  margin-bottom: 30px;
 }
 
 input {
