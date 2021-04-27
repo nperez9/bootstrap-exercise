@@ -18,14 +18,19 @@ html, body {
   background-color: #e2e2e2;;
 }
 
-.checkbox-container {
-  margin: 15px 0;
+.titulo-rojo {
+  color: red;
+  font-size: 40px;
 }
 
-.sing-up {
-  margin-bottom: 30px;
+.my-button {
+  margin: 20px 0;
 }
 
-input {
-  border-radius: 0!important;
+.my-title {
+  margin-bottom: 15px;
+}
+
+#recuerdame {
+  float: none;
 }

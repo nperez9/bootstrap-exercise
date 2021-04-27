@@ -15,7 +15,7 @@
   <main class="container">
     <div class="form-container">
       <!-- El form contiene los inputs  -->
-      <form>
+      <form onsubmit="click(event)">
         <h3 class="sing-up">Sing Up!</h3>
         <div class="form-floating">
           <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" required>
@@ -36,5 +36,11 @@
     </div>
   </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script>
+  function click(event) {
+    event.preventDefault();
+    alert('logueado!')
+  }
+</script>
 </body>
 </html>
