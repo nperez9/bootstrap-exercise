@@ -34,3 +34,7 @@ html, body {
 #recuerdame {
   float: none;
 }
+
+.error-message {
+  color: red;
+}

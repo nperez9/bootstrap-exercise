@@ -14,30 +14,50 @@
 <body>
   <main class="container">
     <div class="form-container">
-      <form class="form-login">
+      <form class="form-login" onsubmit="login(event)">
         <h3 class="my-title">
           Sing up!
           <i class="bi bi-speaker-fill"></i>
         </h3>
         <div>
           <label for="email">Correo Electronico:</label>
-          <input type="email" class="form-control" name="email" id="email" placeholder="nicolas.perez@example.com">
+          <input 
+            type="email" 
+            class="form-control" 
+            name="email" 
+            id="email" 
+            placeholder="nicolas.perez@example.com"
+            required
+          >
         </div>
         <div>
           <label for="password">Contraseña:</label>
-          <input type="password" class="form-control" name="password" id="password" placeholder="*********">
+          <input 
+            type="password" 
+            class="form-control" 
+            name="password" 
+            id="password" 
+            placeholder="*********"
+            minlength="6"
+            maxlength="12"
+            required
+          >
         </div>
         <div class="form-check">
 					<input class="form-check-input my-check" type="checkbox" name="recuerdame" id="recuerdame">
 					<label class="form-check-label my-label-check" for="recuerdame">Recuerdame</label>
         </div>
+        <div>
+          <h3 class="error-message" id="error"></h3>
+        </div>
 				<div>
-					<button class="btn btn-primary my-button">
+					<button class="btn btn-primary my-button" type="submit">
 						Sign in
 					</button>
 				</div>
       </form>
     </div>
   </main>
+  <script src="./scripts.js"></script>
 </body>
 </html>
