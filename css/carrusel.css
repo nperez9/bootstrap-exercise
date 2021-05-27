@@ -1,0 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/calibri-light');
+
+* {
+  font-family: 'Calibri Light', sans-serif;
+}
+
+.carousel-item img {
+  height: 400px!important;
+}
+
+.item-carrusel {
+  width: 33%;
+  float: left;
+}
